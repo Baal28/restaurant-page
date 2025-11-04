@@ -1,5 +1,68 @@
 /* styles.css */
 body {
-  background-color: rebeccapurple;
+  
+  background-color: #001021;
+}
+
+header{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px; 
+}
+
+nav{
+  display: flex;
+  gap: 20px;
+}
+
+/* Styling the common button class */
+.nav-btn {
+    /* Layout and Spacing */
+    padding: 10px 20px;
+    margin: 0 8px;
+    
+    /* Appearance */
+    border: 2px solid #fff; /* White border */
+    border-radius: 5px;
+    background-color: #034748; /* Transparent background */
+    color: #fff; /* White text */
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    /* Smooth transition for hover effects */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+}
+
+/* Hover Effect */
+.nav-btn:hover {
+    background-color: #fff; /* White background on hover */
+    color: #001021; /* Text color matching the body background */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Active/Click State */
+.nav-btn:active {
+    background-color: #ddd; /* Slightly darker white when clicked */
+    transform: translateY(0); /* Settle back down */
+}
+
+#content{
+  background-color: #034748;
+  max-width: 810px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-self: center;
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
 }
 

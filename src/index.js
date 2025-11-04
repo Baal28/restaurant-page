@@ -1,6 +1,7 @@
 // index.js
 import "./styles.css";
-import { home } from "./home.js";
+import "./home.css";
+import { createHome } from "./home.js";
 
-alert(home);
+createHome();
 
