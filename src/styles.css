@@ -52,6 +52,11 @@ nav{
     transform: translateY(0); /* Settle back down */
 }
 
+.active{
+  background-color: #fff;
+  color: #001021;
+}
+
 #content{
   background-color: #034748;
   max-width: 810px;
